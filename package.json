@@ -32,6 +32,7 @@
   ],
   "types": "dist/index.d.ts",
   "scripts": {
+    "prepare": "rimraf dist && npm run compile:types && npm run compile:browser --env mode=production && npm run compile:node --env mode=production",
     "prepublishOnly": "rimraf dist && npm run compile:types && npm run compile:browser --env mode=production && npm run compile:node --env mode=production",
     "compile:node": "webpack --progress --env target=node",
     "compile:types": "tsc --emitDeclarationOnly --declaration",
@@ -59,6 +60,7 @@
     "expo-device": "^4.2.0",
     "expo-random": "^12.2.0",
     "js-sha3": "^0.8.0",
+    "react-native-randombytes": "^3.6.1",
     "react-native-securerandom": "^1.0.0"
   },
   "devDependencies": {
