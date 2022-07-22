@@ -56,7 +56,10 @@
     "@fairdatasociety/fdp-contracts": "^1.0.2",
     "crypto-js": "^4.1.1",
     "ethers": "^5.5.2",
-    "js-sha3": "^0.8.0"
+    "expo-device": "^4.2.0",
+    "expo-random": "^12.2.0",
+    "js-sha3": "^0.8.0",
+    "react-native-securerandom": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
