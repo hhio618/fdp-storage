@@ -60,8 +60,6 @@
     "expo-device": "^4.2.0",
     "expo-random": "^12.2.0",
     "js-sha3": "^0.8.0",
-    "react-native-randombytes": "^3.6.1",
-    "react-native-securerandom": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
